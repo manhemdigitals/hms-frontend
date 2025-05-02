@@ -1,0 +1,56 @@
+.dashboard-layout {
+    height: 100vh;
+}
+
+.sidebar {
+    width: 180px;
+    transition: all 0.3s;
+    background-color: #13616f !important;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        transform: translateX(-100%);
+        z-index: 1000;
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+        background-color: #fff;
+    }
+}
+
+.nav-link { 
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.nav-link:hover {
+    background: #f8f9fa !important;
+    color: #333 !important;
+}
+.nav-link{
+    color: white !important;
+}
+
+.active-nav {
+    background-color: white;
+    font-weight: 600;
+    border-left: 4px solid #ff990d !important;
+    background: #f8f9fa !important;
+    color: #333 !important; 
+}
+
+.profile-img {
+    box-shadow: 0 0 0 4px #ff990d;
+    transition: 0.3s ease;
+  }

@@ -1,0 +1,73 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background: #13616f;
+    color: white;
+     
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+
+ 
+
+.logout-btn {
+    width: 100%;
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Add this to your CSS file or inline with styled-components */
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.loginBtn {
+    border-radius: 20px !important;
+    background-color: #13616f !important;
+    outline: none !important;
+    border: none !important;
+    padding: 10px 0 !important;
+}
+
+.loginInput{
+    padding: 10px 30px !important;
+    border-radius: 20px !important;
+    border: 1px solid black !important;
+}
+.loginImg{
+    object-fit: cover;
+    padding: 20px;
+}
+
+.aptBtn{
+    background-color: #13616f !important;
+    color: #fff !important;
+}
